@@ -1,2 +1,48 @@
 [build]
   publish = "."
+
+[build.processing]
+  skip_processing = false
+
+[build.processing.html]
+  pretty_urls = false
+
+[[redirects]]
+  from = "/about"
+  to = "/about.html"
+  status = 301
+
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 301
+
+[[redirects]]
+  from = "/privacy"
+  to = "/privacy.html"
+  status = 301
+
+[[redirects]]
+  from = "/terms"
+  to = "/terms.html"
+  status = 301
+
+[[redirects]]
+  from = "/disclaimer"
+  to = "/disclaimer.html"
+  status = 301
+
+[[redirects]]
+  from = "/black-and-white-test-page"
+  to = "/black-and-white-test-page.html"
+  status = 301
+
+[[redirects]]
+  from = "/color-test-page"
+  to = "/color-test-page.html"
+  status = 301
+
+[[redirects]]
+  from = "/cmyk-test-page"
+  to = "/cmyk-test-page.html"
+  status = 301
