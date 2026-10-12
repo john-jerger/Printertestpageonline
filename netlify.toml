@@ -5,44 +5,49 @@
   skip_processing = false
 
 [build.processing.html]
-  pretty_urls = false
+  pretty_urls = true
 
 [[redirects]]
-  from = "/about"
-  to = "/about.html"
+  from = "/index.html"
+  to = "/"
   status = 301
 
 [[redirects]]
-  from = "/contact"
-  to = "/contact.html"
+  from = "/about.html"
+  to = "/about"
   status = 301
 
 [[redirects]]
-  from = "/privacy"
-  to = "/privacy.html"
+  from = "/contact.html"
+  to = "/contact"
   status = 301
 
 [[redirects]]
-  from = "/terms"
-  to = "/terms.html"
+  from = "/privacy.html"
+  to = "/privacy"
   status = 301
 
 [[redirects]]
-  from = "/disclaimer"
-  to = "/disclaimer.html"
+  from = "/terms.html"
+  to = "/terms"
   status = 301
 
 [[redirects]]
-  from = "/black-and-white-test-page"
-  to = "/black-and-white-test-page.html"
+  from = "/disclaimer.html"
+  to = "/disclaimer"
   status = 301
 
 [[redirects]]
-  from = "/color-test-page"
-  to = "/color-test-page.html"
+  from = "/black-and-white-test-page.html"
+  to = "/black-and-white-test-page"
   status = 301
 
 [[redirects]]
-  from = "/cmyk-test-page"
-  to = "/cmyk-test-page.html"
+  from = "/color-test-page.html"
+  to = "/color-test-page"
+  status = 301
+
+[[redirects]]
+  from = "/cmyk-test-page.html"
+  to = "/cmyk-test-page"
   status = 301
